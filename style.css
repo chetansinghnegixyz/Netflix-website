@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url("images/background\ image.png");
+    background-repeat: no-repeat;
+}
+.navbar{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+}
+.logo{
+    height: 100px;
+}
+.language{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 7px 11px;
+    margin-left: 55rem;
+}
+.btn1{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    padding: 9px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.title{
+    width: 100%;
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.title h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.title h2{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.title p{
+    color: white;
+    font-size: 19px; 
+    margin-bottom: 20px;
+}
+.search{
+    width: 48%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    outline: none;
+    border: none;
+    padding: 18px 10px;
+    font-size: 16px;
+}
+.btn2{
+    cursor: pointer;
+    padding: 15px 36px;
+    background-color: red;
+    color: white;
+    font-size: 27px;
+}
